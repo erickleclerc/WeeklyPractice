@@ -1299,6 +1299,8 @@ GameObject:
   - component: {fileID: 865446075}
   - component: {fileID: 865446074}
   - component: {fileID: 865446073}
+  - component: {fileID: 865446076}
+  - component: {fileID: 865446077}
   m_Layer: 0
   m_Name: XR Origin (XR Rig) (1)
   m_TagString: Untagged
@@ -1352,6 +1354,31 @@ Transform:
   - {fileID: 364253126}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &865446076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865446072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cfcb70fc289f4147bae1d96ad4fb3e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.FixedFovRendering
+  fovStrength: 1
+--- !u!114 &865446077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865446072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d02761162a947f94dac77eacdd3483ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnableFFR
 --- !u!1 &1627264122
 GameObject:
   m_ObjectHideFlags: 0
