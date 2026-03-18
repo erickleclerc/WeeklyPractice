@@ -13,7 +13,7 @@ public class WinTrigger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-         player = FindObjectOfType<PlayerController>().gameObject;
+         player = FindFirstObjectByType<PlayerController>().gameObject;
          victoryPianoBGM.Stop();
     }
 

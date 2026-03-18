@@ -8,7 +8,7 @@ public class TimerTrigger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = FindObjectOfType<PlayerController>().gameObject;        
+        player = FindFirstObjectByType<PlayerController>().gameObject;        
     }
     void OnTriggerExit(Collider other)
     {
